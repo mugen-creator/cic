@@ -592,84 +592,84 @@ input {
 .step-overview {
     background: white;
     border-radius: var(--radius);
-    padding: 20px;
+    padding: 16px;
     box-shadow: var(--shadow);
 }
 
 .overview-title {
     text-align: center;
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     font-weight: 600;
-    color: var(--gray-600);
-    margin-bottom: 16px;
+    color: var(--gray-500);
+    margin-bottom: 12px;
 }
 
-.overview-flow {
+.overview-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.overview-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    background: var(--gray-50);
+    border-radius: var(--radius-xs);
+    font-size: 0.8125rem;
+    color: var(--gray-700);
+}
+
+.overview-item.important {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 1px solid var(--primary-light);
+}
+
+.overview-item.success {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 1px solid var(--success);
+}
+
+.ov-num {
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 4px;
-    margin-bottom: 8px;
-}
-
-.overview-flow:last-child {
-    margin-bottom: 0;
-}
-
-.flow-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    padding: 8px 6px;
-    min-width: 60px;
-}
-
-.flow-num {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--gray-200);
-    color: var(--gray-600);
+    background: var(--gray-300);
+    color: white;
     border-radius: 50%;
-    font-size: 0.75rem;
+    font-size: 0.6875rem;
     font-weight: 700;
+    flex-shrink: 0;
 }
 
-.flow-item.highlight .flow-num {
+.overview-item.important .ov-num {
+    background: var(--primary);
+}
+
+.overview-item.success .ov-num {
+    background: var(--success);
+}
+
+.ov-badge {
+    margin-left: auto;
+    padding: 2px 6px;
+    font-size: 0.625rem;
+    font-weight: 600;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.overview-item.important .ov-badge {
     background: var(--primary);
     color: white;
 }
 
-.flow-item.success .flow-num {
+.overview-item.success .ov-badge {
     background: var(--success);
     color: white;
-}
-
-.flow-text {
-    font-size: 0.6875rem;
-    color: var(--gray-600);
-    text-align: center;
-    white-space: nowrap;
-}
-
-.flow-item.highlight .flow-text {
-    color: var(--primary);
-    font-weight: 600;
-}
-
-.flow-item.success .flow-text {
-    color: var(--success);
-    font-weight: 600;
-}
-
-.flow-arrow {
-    color: var(--gray-300);
-    font-size: 0.75rem;
-    flex-shrink: 0;
 }
 
 /* ===================================
