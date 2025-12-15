@@ -1,5 +1,5 @@
-/* ===================================
-   CIC信用惁E��開示 完�EガイチE
+﻿/* ===================================
+   CIC信用惁E��開示 完�EガイチE
    Mobile-First スタイルシーチE
    =================================== */
 
@@ -627,11 +627,11 @@ input {
 .overview-item {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 12px 14px;
+    gap: 8px;
+    padding: 8px 10px;
     background: var(--gray-50);
-    border-radius: var(--radius-sm);
-    font-size: 0.875rem;
+    border-radius: var(--radius-xs);
+    font-size: 0.75rem;
     color: var(--gray-700);
 }
 
@@ -646,15 +646,15 @@ input {
 }
 
 .ov-num {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--gray-300);
     color: white;
     border-radius: 50%;
-    font-size: 0.75rem;
+    font-size: 0.625rem;
     font-weight: 700;
     flex-shrink: 0;
 }
@@ -713,7 +713,7 @@ input {
 }
 
 .section-header h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--gray-900);
     line-height: 1.4;
@@ -778,7 +778,7 @@ input {
 }
 
 .check-input:checked+.check-box::after {
-    content: '✁E;
+    content: '✓';
     color: white;
     font-weight: 700;
     font-size: 1rem;
@@ -1079,7 +1079,7 @@ input {
 }
 
 .important-icon {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .important-header span {
@@ -1146,14 +1146,14 @@ input {
 }
 
 .phone-number {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 800;
     color: var(--primary);
     letter-spacing: 0.05em;
 }
 
 .phone-arrow {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--primary);
 }
 
@@ -1187,7 +1187,7 @@ input {
 .memo-input {
     width: 100%;
     padding: 16px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.3em;
@@ -1363,7 +1363,7 @@ input {
 }
 
 .visual-step-icon {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     flex-shrink: 0;
 }
 
@@ -1464,7 +1464,7 @@ input {
 }
 
 .method-icon {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .method-info {
