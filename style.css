@@ -592,32 +592,32 @@ input {
 .step-overview {
     background: white;
     border-radius: var(--radius);
-    padding: 16px;
+    padding: 20px;
     box-shadow: var(--shadow);
 }
 
 .overview-title {
     text-align: center;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     font-weight: 600;
     color: var(--gray-500);
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .overview-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    gap: 10px;
 }
 
 .overview-item {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 10px 12px;
+    gap: 10px;
+    padding: 12px 14px;
     background: var(--gray-50);
-    border-radius: var(--radius-xs);
-    font-size: 0.8125rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
     color: var(--gray-700);
 }
 
@@ -632,15 +632,15 @@ input {
 }
 
 .ov-num {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--gray-300);
     color: white;
     border-radius: 50%;
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     font-weight: 700;
     flex-shrink: 0;
 }
@@ -655,8 +655,8 @@ input {
 
 .ov-badge {
     margin-left: auto;
-    padding: 2px 6px;
-    font-size: 0.625rem;
+    padding: 3px 8px;
+    font-size: 0.6875rem;
     font-weight: 600;
     border-radius: 4px;
     flex-shrink: 0;
