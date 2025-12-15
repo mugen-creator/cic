@@ -1,6 +1,6 @@
 /* ===================================
-   CIC信用情報開示 完全ガイド
-   Mobile-First スタイルシート
+   CIC信用惁E��開示 完�EガイチE
+   Mobile-First スタイルシーチE
    =================================== */
 
 /* CSS Custom Properties */
@@ -34,6 +34,20 @@
     --radius: 16px;
     --radius-sm: 12px;
     --radius-xs: 8px;
+
+    /* Font Sizes */
+    --text-xs: 0.75rem;
+    /* 12px */
+    --text-sm: 0.875rem;
+    /* 14px */
+    --text-base: 1rem;
+    /* 16px */
+    --text-lg: 1.125rem;
+    /* 18px */
+    --text-xl: 1.25rem;
+    /* 20px */
+    --text-2xl: 1.5rem;
+    /* 24px */
 }
 
 /* Reset */
@@ -407,7 +421,7 @@ input {
     padding: 14px 16px;
     border-radius: var(--radius-xs);
     color: var(--gray-700);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     transition: var(--transition);
 }
 
@@ -578,7 +592,7 @@ input {
     background: var(--gray-800);
     color: white;
     border-radius: var(--radius-sm);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     margin-bottom: 32px;
 }
 
@@ -656,7 +670,7 @@ input {
 .ov-badge {
     margin-left: auto;
     padding: 3px 8px;
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     font-weight: 600;
     border-radius: 4px;
     flex-shrink: 0;
@@ -764,7 +778,7 @@ input {
 }
 
 .check-input:checked+.check-box::after {
-    content: '✓';
+    content: '✁E;
     color: white;
     font-weight: 700;
     font-size: 1rem;
@@ -794,7 +808,7 @@ input {
 }
 
 .check-desc {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
     line-height: 1.5;
 }
@@ -828,7 +842,7 @@ input {
 }
 
 .tip-box p {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--gray-700);
     margin: 0;
 }
@@ -872,7 +886,7 @@ input {
 
 .step-desc {
     color: var(--gray-600);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
@@ -964,7 +978,7 @@ input {
 }
 
 .payment-note {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
 }
 
@@ -997,7 +1011,7 @@ input {
     background: var(--gray-100);
     border: none;
     border-radius: var(--radius-sm);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--gray-700);
     text-align: left;
@@ -1035,12 +1049,12 @@ input {
     padding: 6px 12px;
     background: var(--gray-100);
     border-radius: 20px;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-700);
 }
 
 .card-note {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
 }
 
@@ -1074,7 +1088,7 @@ input {
 }
 
 .important-box p {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     margin: 0;
     opacity: 0.95;
 }
@@ -1127,7 +1141,7 @@ input {
 }
 
 .phone-label {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
 }
 
@@ -1191,7 +1205,7 @@ input {
 
 .memo-note {
     text-align: center;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
     margin-top: 10px;
 }
@@ -1276,7 +1290,7 @@ input {
     gap: 12px;
     padding: 14px 0;
     border-bottom: 1px solid var(--gray-100);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--gray-700);
 }
 
@@ -1333,7 +1347,7 @@ input {
     color: white;
     border-radius: 50%;
     font-weight: 700;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     flex-shrink: 0;
 }
 
@@ -1354,7 +1368,7 @@ input {
 }
 
 .visual-step-text {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--gray-700);
     line-height: 1.5;
 }
@@ -1396,7 +1410,7 @@ input {
 
 .simple-card p {
     color: var(--gray-600);
-    font-size: 0.9375rem;
+    font-size: 1rem;
 }
 
 /* ===================================
@@ -1464,7 +1478,7 @@ input {
 }
 
 .method-desc {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
 }
 
@@ -1498,7 +1512,7 @@ input {
 }
 
 .alert-content p {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--gray-700);
     margin: 0;
 }
@@ -1521,7 +1535,7 @@ input {
     background: white;
     border-radius: var(--radius-sm);
     box-shadow: var(--shadow);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--gray-700);
 }
 
@@ -1646,7 +1660,7 @@ input {
 }
 
 .contact-hours {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
 }
 
@@ -1731,7 +1745,7 @@ input {
     padding: 18px;
     background: var(--gray-100);
     color: var(--gray-600);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     font-weight: 600;
     border: none;
     border-radius: var(--radius-sm);
@@ -1911,7 +1925,7 @@ input {
     align-items: center;
     justify-content: center;
     gap: 6px;
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-600);
 }
 
@@ -1959,7 +1973,7 @@ input {
     color: white;
     border: none;
     border-radius: var(--radius-xs);
-    font-size: 0.9375rem;
+    font-size: 1rem;
     font-weight: 600;
     transition: var(--transition);
 }
@@ -2013,11 +2027,11 @@ input {
 .action-step-title {
     font-weight: 600;
     color: var(--gray-800);
-    font-size: 0.9375rem;
+    font-size: 1rem;
 }
 
 .action-step-desc {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--gray-500);
 }
 
@@ -2083,7 +2097,7 @@ input {
 }
 
 .cic-link-desc {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     opacity: 0.85;
 }
 
